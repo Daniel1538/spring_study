@@ -2,9 +2,10 @@ package com.example.demo.used;
 
 import org.springframework.stereotype.Component;
 
-public class MorningGreet implements Greet {
+@Component
+public class EveningGreet implements Greet{
     @Override
     public String greeting() {
-        return "좋은 아침";
+        return "좋은 밤";
     }
 }
